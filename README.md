@@ -4,7 +4,7 @@
 <h2>Key Features</h2>
 Frontend: 📱 Responsive design, 🛍️ product listings, 📄 detailed product pages, 🛒 shopping cart interface, and 🌐 user-friendly navigation.
 Backend: 🔐 User authentication, 📦 product management, 🧾 order processing, and 💳 payment gateway integration.
-Technologies Used: 💻 HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, and more.
+Technologies Used: 💻 HTML, CSS, JavaScript, React, Node.js, Express and more.
 
 <h2>Goals</h2>
 🛠️ Enhance proficiency in modern web development technologies.
