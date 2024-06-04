@@ -1,4 +1,4 @@
-🛒 Shopify Clone - Enhancing Frontend and Backend Skills
+<h1>🛒 Shopify Clone - Enhancing Frontend and Backend Skills</h1>
 This repository is dedicated to improving my frontend and backend development skills through building a Shopify-like e-commerce platform. The project aims to replicate the core functionalities of Shopify, including product management, shopping cart, user authentication, and payment integration.
 
 Key Features
