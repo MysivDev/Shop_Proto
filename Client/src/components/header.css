@@ -1,0 +1,100 @@
+#TopHeaderImg {
+    width: 100vw;
+    /* position: absolute; */
+    top: -40vw;
+}
+
+#lowerHeaderWrapper {
+    background-color: white;
+}
+
+#LowerHeaderHeadingWrapper {
+    text-align: center;
+    margin: 70px 0;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+#LowerHeaderPictureContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#LowerHeaderPictureWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#LeftHeaderImg {
+    margin-right: 5vw;
+    width: 26vw;
+}
+
+#RightImageWrapper {
+    text-align: center;
+}
+
+#RightHeaderFrontImg {
+    width: 14vw;
+}
+
+.RightHeaderImgDesc a {
+    text-decoration: none;
+    color: black;
+}
+
+.RightHeaderImgDesc {
+    margin: 15px 0;
+    font-size: 12px;
+}
+
+#ButtonWrapper {
+    margin: 40px 0;
+}
+
+.Button {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 15px 80px;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 12px;
+    border: 2px solid black;
+    background: linear-gradient(to left, black 50%, white 50%) right;
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .2s ease-out;
+}
+
+.Button:hover {
+    background-position: left bottom;
+}
+
+.text {
+    text-align: center;
+    font-size: 16px;
+
+    color: white;
+    transition: all .3s ease-out;
+
+}
+
+.text:hover {
+    color: black;
+}
+
+
+/*TODO: Bild höher als die page starten lassen, bild unten abschneiden und gradiant drauflegen
+Bild von hinten einfügen bei hover
+komischer weißer punkt linkes bild einfügen
+Bild rechts column mäßig zentrieren
+hoverfarbe beim text von button funktioniert nicht*/
