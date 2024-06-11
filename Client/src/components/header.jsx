@@ -7,23 +7,27 @@ import RightHeaderFrontImg from "../assets/img/RightHeaderFrontImg.webp";
 function Header() {
   return (
     <>
-      <img
-        id="TopHeaderImg"
-        src={TopHeaderImg}
-      />
-      <div id="LowerHeaderWrapper">
-        <div id="LowerHeaderHeadingWrapper">
+      <section className="HeaderImgContainer">
+        <img
+          id="TopHeaderImg"
+          src={TopHeaderImg}
+        />
+        <div id="gradient-overlay"></div>
+      </section>
+      <section id="LowerHeaderWrapper">
+        <section id="LowerHeaderHeadingWrapper">
           <h3>AKATSUKI WINDBREAKER</h3>
           <h2>NEW ARRIVAL</h2>
-        </div>
-        <div id="LowerHeaderPictureContainer">
-          <div id="LowerHeaderPictureWrapper">
-            <div>
-              <img
-                id="LeftHeaderImg"
-                src={LeftHeaderImg}
-              />
-            </div>
+        </section>
+
+        <section id="LowerHeaderPictureWrapper">
+          <div>
+            <img
+              id="LeftHeaderImg"
+              src={LeftHeaderImg}
+            />
+          </div>
+          <div id="RightImageContainer">
             <div id="RightImageWrapper">
               <img
                 id="RightHeaderFrontImg"
@@ -40,13 +44,13 @@ function Header() {
                   class="Button"
                   href="url"
                 >
-                  <span class="Text">VIEW THIS PRODUCT</span>
+                  VIEW THIS PRODUCT
                 </a>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </section>
+      </section>
     </>
   );
 }
